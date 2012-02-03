@@ -1,13 +1,17 @@
 {
-  "author": "",
+  "author": "Petr Janda (petrjanda@me.com)",
   "name": "basement",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": {
-    "url": ""
+    "url": "https://github.com/petrjanda/basement"
   },
   "engines": {
     "node": "~0.6.2"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "walk": "*",
+  },
+  "devDependencies": {
+    "jasmine-node": "*"
+  }
 }
