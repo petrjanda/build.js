@@ -9,7 +9,7 @@
     "node": "~0.6.2"
   },
   "dependencies": {
-    "walk": "*",
+    "walk": "*"
   },
   "devDependencies": {
     "jasmine-node": "*"
