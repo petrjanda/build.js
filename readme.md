@@ -1,4 +1,4 @@
-# Basement = node.js web pipeline
+# build.js = node web pipeline
 
 Basement target is to simpify life to frontend developers. Idea comes from Ruby driven project called rake pipeline.
 You are allowed to define your file processing in a declarative way, in order to automate your build system for your
