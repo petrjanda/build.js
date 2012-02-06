@@ -1,10 +1,10 @@
 # build.js = node web pipeline
 
-Basement target is to simpify life to frontend developers. Idea comes from Ruby driven project called rake pipeline.
+Build.js target is to simpify life to frontend developers. Idea comes from Ruby driven project called rake pipeline.
 You are allowed to define your file processing in a declarative way, in order to automate your build system for your
 frontend application.
 
-Because basement, can be integrated to any node.js application, its target is to extend your reach within your one and
+Because build.js, can be integrated to any node.js application, its target is to extend your reach within your one and
 only development server, without need to spawn any other tool.
 
 ## How does it work?
@@ -16,16 +16,16 @@ to customize its behavior, you are able to build it up from couple predefined fi
 
 Installation with npm is easy as:
 
-    npm install basement
+    npm install build.js
 
 Then anywhere in your application create a pipeline definition. If you write Ember.js app with handlebars templates, it
 might look like this:
 
 ```javascript
-Pipeline = require('basement').Pipeline;
-ClosureFilter = require('basement').ClosureFilter;
-ConcatFilter = require('basement').ConcatFilter;
-HandlebarsCompileFilter = require('basement').HandlebarsCompileFilter;
+Pipeline = require('build.js').Pipeline;
+ClosureFilter = require('build.js').ClosureFilter;
+ConcatFilter = require('build.js').ConcatFilter;
+HandlebarsCompileFilter = require('build.js').HandlebarsCompileFilter;
 
 new Pipeline({
   input: 'frontend/lib',
