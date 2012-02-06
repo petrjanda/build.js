@@ -24,8 +24,8 @@ new buildJs.Pipeline({
   pattern: '*.js',
 
   filters: [
-    new ClosureFilter(),
-    new ConcatFilter({ separator: '\n'})
+    new buildJs.ClosureFilter(),
+    new buildJs.ConcatFilter({ separator: '\n'})
   ]
 })
 ```
