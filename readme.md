@@ -20,7 +20,7 @@ var buildJs = require('build.js');
 
 new buildJs.Pipeline({
   input: 'lib/',
-  output: 'dist/',
+  output: 'dist/app.js',
   pattern: '*.js',
 
   filters: [
