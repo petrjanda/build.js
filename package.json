@@ -1,13 +1,10 @@
 {
   "author": "Petr Janda <petr@ngneers.com> (http://twitter.com/petrjanda)",
   "name": "build.js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/petrjanda/build.js.git"
-  },
-  "engines": {
-    "node": "~0.6.2"
   },
   "dependencies": {
     "walk": "*"
