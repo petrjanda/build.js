@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/petrjanda/build.js.png)](http://travis-ci.org/petrjanda/build.js)
 # build.js = node web pipeline
 
 Build.js is a build tool, which processes your source codes, in order to output transformed version. You can use it to
